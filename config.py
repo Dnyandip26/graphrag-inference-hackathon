@@ -1,5 +1,5 @@
 # --- Groq ---
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "API_Key"
 MODEL = "llama-3.3-70b-versatile"
 
 # --- Embeddings (local, free) ---
