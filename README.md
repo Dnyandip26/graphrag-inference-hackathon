@@ -212,28 +212,9 @@ How does a neural network work?
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────┐
-│           GraphRAG Dashboard                 │
-│         (Streamlit UI)                       │
-└──────────────┬──────────────────────────────┘
-               │ Query
-       ┌───────┴────────┐
-       ▼                ▼                ▼
-┌──────────┐   ┌──────────────┐   ┌───────────────┐
-│ Pipeline │   │  Pipeline 2  │   │  Pipeline 3   │
-│    1     │   │  Basic RAG   │   │  GraphRAG     │
-│ LLM Only │   │              │   │               │
-└──────────┘   │ FAISS Index  │   │ Knowledge     │
-               │ (Vector DB)  │   │ Graph         │
-               └──────────────┘   │ (180 entities │
-                                  │  22K edges)   │
-                                  └───────────────┘
-                                         │
-                              ┌──────────▼──────────┐
-                              │  Groq LLM           │
-                              │  llama-3.3-70b      │
-                              └─────────────────────┘
-```
+## 🏗️ Architecture
+
+![Architecture Diagram](architecture.png)
 
 
 
