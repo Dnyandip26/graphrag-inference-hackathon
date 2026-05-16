@@ -211,9 +211,6 @@ How does a neural network work?
 
 ## 🏗️ Architecture
 
-```
-## 🏗️ Architecture
-
 ![Architecture Diagram](architecture.png)
 
 
