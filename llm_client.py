@@ -1,6 +1,11 @@
 from groq import Groq
 from sentence_transformers import SentenceTransformer
+import streamlit as st
 
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
+MODEL = "llama-3.3-70b-versatile"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 _client = Groq(api_key=GROQ_API_KEY)
 from sentence_transformers import SentenceTransformer
