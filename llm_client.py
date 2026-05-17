@@ -1,6 +1,6 @@
 from groq import Groq
 from sentence_transformers import SentenceTransformer
-from config import GROQ_API_KEY, MODEL, EMBEDDING_MODEL
+
 
 _client = Groq(api_key=GROQ_API_KEY)
 from sentence_transformers import SentenceTransformer
